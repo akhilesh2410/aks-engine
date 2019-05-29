@@ -733,6 +733,8 @@ func (t *TemplateGenerator) getTemplateFuncMap(cs *api.ContainerService) templat
 				kubernetesWindowsKubeletFunctionsPS1,
 				kubernetesWindowsCniFunctionsPS1,
 				kubernetesWindowsAzureCniFunctionsPS1,
+				kubernetesWindowsFirewallConfigPS1,
+				kubernetesWindowsPPKConfig,
 				kubernetesWindowsOpenSSHFunctionPS1}
 
 			// Create a buffer, new zip
